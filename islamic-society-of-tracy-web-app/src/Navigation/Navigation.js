@@ -1,23 +1,25 @@
 import React from 'react'
 import './Navigation.scss';
+import { Link } from "react-router-dom"
 
 const Navigation = props => {
   return (
     <div className="navigation">
       <div className="top">
-        <div className="navigation-container">
-          <img src={require("../images/isotLogo.png")} alt="isot logo" className="logo"/>
+        <div className="container">
+          <img className="logo" src={require("../images/isotLogo.png")} alt="isot logo"/>
         </div>
       </div>
       <div className="bottom">
-        <div className="navigation-container">
+        <div className="container">
           <div className="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Donate</a>
-            <a href="#">Events</a>
-            <a href="#">Prayer Times</a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/donate">Donate</Link>
+            <Link to="/events">Events</Link>
+            <Link to="/prayer_times">Prayer Times</Link>
+            <Link to="/forms">Forms</Link>
           </div>
         </div>
       </div>

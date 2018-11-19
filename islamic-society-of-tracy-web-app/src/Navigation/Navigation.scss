@@ -4,25 +4,14 @@
         // background: rgb(197, 197, 197);
         background: rgb(140, 203, 76);
     
-        .navigation-container {
-            max-width: 1000px;
-            width: 100%;
-            margin: 0 auto; 
-
             .logo{
                 width: 300px;
                 margin: 20px 0 0 20px;
             }
-        }
     }
 
     .bottom {
         background: rgb(140, 203, 76);
-    
-        .navigation-container {
-            max-width: 1000px;
-            width: 100%;
-            margin: 0 auto; 
 
             .navbar {
                 display: flex;
@@ -40,12 +29,11 @@
                     &:hover {
                         background: black;
                         color: white;
-                        transition: 1s all;
-                        padding: 5px 10px;
+                        transition: .5s all;
+                        // padding: 5px 10px;
                         border-radius: 5px;
                     }
                 }
             }
-        }
     }
 }
