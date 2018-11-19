@@ -1,0 +1,22 @@
+.header {
+  background: #8ccb4c;
+  width: 100%; }
+  .header .logo {
+    width: 400px;
+    margin: 20px 0 0 20px; }
+  .header .nav {
+    display: flex;
+    justify-content: center; }
+    .header .nav a {
+      margin: 0 3% 1%;
+      font-size: 2rem;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      transition: .5s all; }
+      .header .nav a:hover {
+        background: black;
+        color: white;
+        transition: 1s all;
+        padding: 5px 10px;
+        border-radius: 5px; }
