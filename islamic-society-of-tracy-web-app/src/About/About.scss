@@ -14,36 +14,44 @@
 
     .content {
         border: 1px solid black;        
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        
 
-        .member-container {
-            border: 1px solid red;
-            width: 30%;
-            margin-bottom: 50px;
+        .text {
 
-            .member-image {
+        }
 
-                img {
-                    width: 100%;
+        .member-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .member-container {
+                border: 1px solid red;
+                width: 30%;
+                margin: 0 auto 50px;
+    
+                .member-image {
+    
+                    img {
+                        width: 100%;
+                    }
+    
+                    .overlay {
+    
+                    }
                 }
-
-                .overlay {
-
-                }
-            }
-
-            .member-content {
-
-                .member-name {
-                    font-size: 4rem;
-                    font-weight: 600;
-                }
-
-                .member-job {
-                    font-size: 2rem;
-                    font-weight: 600;
+    
+                .member-content {
+    
+                    .member-name {
+                        font-size: 2.9rem;
+                        font-weight: 600;
+                    }
+    
+                    .member-job {
+                        font-size: 2rem;
+                        font-weight: 600;
+                    }
                 }
             }
         }

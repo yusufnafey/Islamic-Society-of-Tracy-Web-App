@@ -4,7 +4,7 @@ import './App.scss';
 import Navigation from './Navigation/Navigation'
 import Home from './Home/Home'
 import About from './About/About'
-
+import Contact from './Contact/Contact'
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
         <Navigation />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/contact" component={Contact} />
         {/* <Route path="/donate" component={Donate} /> */}
         {/* <Route path="/events" component={Events} /> */}
         {/* <Route path="/prayer_times" component={PrayerTimes} />  */}
